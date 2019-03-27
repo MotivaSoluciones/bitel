@@ -1,64 +1,11 @@
 <style>
-	/*	linea 4657*/
+	/*linea 4529*/
 
-	#content-block .navigation-banner-content {
-		height: 500px;
-		padding: 0 30px;
-	}
-
-	/*linea 4709*/
-
-	#content-block .navigation-banner-content {
-		padding: 250px 15px 15px;
-		width: auto;
-		text-align: center;
-		float: none;
-		margin-top: 60px;
-	}
-
-	/*linea 4700*/
-
-	#content-block .navigation-banner-content .subtitle {
-		font-size: 25px;
-		line-height: 30px;
-		margin-bottom: 10px;
-	}
-
-	/*	linea 13539*/
-
-	.home-banner {
-		float: none!important;
-		height: 250px!important;
-	}
-
-	/*linea 4599*/
-
-	.navigation-banner-content .description {
-		font-size: 14px;
-		line-height: 24px;
-		color: #aaa;
-		font-family: "Open Sans", sans-serif;
-		font-weight: 400;
-		margin-bottom: 15px;
-		margin-top: 15px;
-		transform: translateX(-100px);
-		-moz-transform: translateX(-100px);
-		-webkit-transform: translateX(-100px);
-		-ms-transform: translateX(-100px);
-		opacity: 0;
-	}
-
-	/*linea 11442*/
-
-	body.style-15 .swiper-active-switch {
-		background: #fff;
-		border-color: #fff;
-	}
-
-	/*linea 4733*/
-
-	#content-block .navigation-banner-wrapper.light-text:before {
-		background: rgba(31, 31, 31, 0);
+	.navigation-banner-content {
+		width: 1170px;
+		padding: 0 15px 0 15px;
+		height: 530px;
+		position: relative;
 	}
 
 	/*linea 4553*/
@@ -66,17 +13,37 @@
 	.navigation-banner-wrapper.align-3 .navigation-banner-content {
 		text-align: left;
 		padding-top: 0;
-		padding-right: 0;
 		margin: 0 auto;
 	}
 
-	/*linea 4529*/
+	/*	linea 4632*/
 
-	.navigation-banner-content {
-		width: 80%;
-		padding: 0 50px 0 50px;
-		height: 530px;
-		position: relative;
+	.swiper-slide.active .navigation-banner-content .subtitle,
+	.swiper-slide.active .navigation-banner-content .title,
+	.swiper-slide.active .navigation-banner-content .description,
+	.swiper-slide.active .navigation-banner-content .info {
+		text-align: left;
+		transform: translateX(0px) translateY(0px);
+		-moz-transform: translateX(0px) translateY(0px);
+		-webkit-transform: translateX(0px) translateY(0px);
+		-ms-transform: translateX(0px) translateY(0px);
+		opacity: 1;
+	}
+
+	/*	linea 13552*/
+
+	.home-banner {
+		float: left;
+		margin-top: 150px;
+		height: 200px;
+	}
+
+	/* linea 10810*/
+
+	@media (max-width: 768px) {
+		.relate-product .nav-tabs-icon {
+			margin-top: 0;
+		}
 	}
 
 </style>
