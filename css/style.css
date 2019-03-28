@@ -4699,6 +4699,7 @@ body:not(.mobile) #content-block .sidebar-navigation .entry:hover .fa {
 		font-size: 25px;
 		line-height: 30px;
 		margin-bottom: 10px;
+		text-align: center;
 	}
 	#content-block .navigation-banner-content .description {
 		color: #3c3c3c;
@@ -4724,6 +4725,7 @@ body:not(.mobile) #content-block .sidebar-navigation .entry:hover .fa {
 	#content-block .navigation-banner-wrapper.light-text .description {
 		color: #fff!important;
 		max-width: initial;
+		text-align: center;
 	}
 	#content-block .navigation-banner-content .button {
 		margin: 0 auto;
@@ -13568,6 +13570,7 @@ span.help-block {
 	#content-block .navigation-banner-content {
 		padding: 300px 15px 15px;
 		width: auto;
+		text-align: -webkit-center;	
 	}
 	.banner1 {
 		background-image: url(../img/bg/bg-1-movil.png);
